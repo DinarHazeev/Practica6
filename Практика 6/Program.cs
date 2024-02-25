@@ -14,6 +14,7 @@ namespace Практика_6
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
             double f = 3*Math.Sin(x+2);
+            Console.WriteLine($"Для значения x = {x}, f = {f}");
         }
     }
 }
